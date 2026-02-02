@@ -29,6 +29,7 @@ Three sequential analyses in `Protein_frequency_Exploratory_Data_Analysis_script
 ## Scripts Overview
 
 **Purpose:** Exploratory data analysis of proteins frequencies 
+
 **Analyses performed:**
 - Simple heatmap visualization of raw data
 - Hierarchical clustering using Dice dissimilarity metric and complete linkage
