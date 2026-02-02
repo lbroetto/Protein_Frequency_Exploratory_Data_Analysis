@@ -26,7 +26,7 @@ The script was written and developed by Leonardo Broetto (leonardo.broetto@arapi
 | 2 | Hierarchical Clustermap | `clustermap.png` |
 | 3 | Correlation Matrix | `correlation_heatmap.png` |
 
-## Scripts Overview
+## Script Overview
 
 **Purpose:** Exploratory data analysis of proteins frequencies. The Python-based analyses (heatmaps, hierarchical clustering and correlation) are primarily descriptive and exploratory in nature. They serve to visualize patterns, relationships, and structures within the dataset rather than to test specific statistical hypotheses.
 
@@ -58,7 +58,7 @@ The script was written and developed by Leonardo Broetto (leonardo.broetto@arapi
 | `Protein_frequency_Exploratory_Data_Analysis_script.py` | Exploratory heatmaps & clustering | Matrix format (rows=features, cols=samples) | `heatmap.png`, `clustermap.png`, `correlation_matrix.png` |
 
 ----
-# Quick Start: Using the Scripts
+# Quick Start: Using the Script
 Before running the script:
 
 Prepare your data: Requires a matrix-style CSV file structured as follows: Rows: Protein families or protein identifiers. Columns: Genomes or sample names. Cell values: Numerical frequencies representing the count or presence of each protein identified in each genome via pHMM (profile Hidden Markov Model for each differente protein family) prediction.
@@ -69,9 +69,9 @@ Install dependencies: Ensure you have the required Python packages installed (se
 
 Run the script: Execute it from your terminal or IDE: python script_name.py
 
-Data Privacy Note: The original research data is not included in this repository. The scripts are configured to work with generic filenames (input_data_table.csv). Replace this with your own data filename.
+Data Privacy Note: The original research data is not included in this repository. The script is configured to work with generic filenames (input_data_table.csv). Replace this with your own data filename.
 
-Expected Data Location: By default, scripts look for the CSV file in the same directory as the script. You can modify the path in the INPUT_FILE variable if needed (e.g., 'data/my_file.csv').
+Expected Data Location: By default, script look for the CSV file in the same directory as the script. You can modify the path in the INPUT_FILE variable if needed (e.g., 'data/my_file.csv').
 
 ---
 
@@ -80,7 +80,7 @@ Expected Data Location: By default, scripts look for the CSV file in the same di
 **Important:** The original input data files (`*.csv`) used in this study are **not included** in this repository. This protects the primary research data.
 
 ### For Reproducibility and Reuse:
-1.  **Code Execution:** To run these scripts with your own data, simply place your CSV file in the `data/` directory and update the filename in the script (or rename your file to match the expected name in the script).
+1.  **Code Execution:** To run this script with your own data, simply place your CSV file in the `data/` directory and update the filename in the script (or rename your file to match the expected name in the script).
 2.  **Data Format:** script includes a comment at the top describing the **required input** and **configuration** for the input CSV. Please ensure your data follows this format.
 
 ### Expected Input Format:
