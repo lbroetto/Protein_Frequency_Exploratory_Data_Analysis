@@ -42,7 +42,7 @@ Three sequential analyses in `Protein_frequency_Exploratory_Data_Analysis_script
 **Hierarchical Clustermap:**
 - This analysis employs a distance-based algorithm with inherent statistical measures: a) Distance Metric: use the Dice dissimilarity metric (equivalent to 1 – Dice coefficient), a statistical measure for binary or binarized data that quantifies dissimilarity between two sets. b) Linkage Method: The complete linkage method was used, which determines cluster similarity based on the maximum distance between members of each cluster. c) Standardization: The parameter standard_scale=1 scales the data per row (z-score normalization), ensuring that clustering is based on relative patterns rather than absolute magnitudes. While hierarchical clustering itself does not produce a p-value, it is a well-established multivariate statistical method for uncovering natural groupings within data, and the choice of metric and linkage method constitutes its statistical foundation.
 
-**Correlation Matrix (heatmaps of Pearson correlation coefficient):**
+**Correlation Matrix (heatmap of Pearson correlation coefficient):**
 - The .corr() method in Pandas computes the Pearson correlation coefficient by default, which is a parametric statistical measure of linear dependence between variables. The resulting matrix and its visualization (with a mask for the upper triangle) provide a direct quantitative assessment of pairwise relationships. While it did not perform additional tests (e.g., calculating p-values for each correlation), the correlation coefficient itself is a fundamental statistic, and its magnitude (displayed in the heatmap) is the primary descriptor of association strength in this exploratory context.
 
 **Note:**
