@@ -18,7 +18,7 @@ The script was written and developed by Leonardo Broetto (leonardo.broetto@arapi
 
 ## Analysis Pipeline
 
-Three sequential analyses in `protein_frequency_eda.py`:
+Three sequential analyses in `Protein_frequency_Exploratory_Data_Analysis_script.py`:
 
 | Step | Analysis | Output File |
 |------|----------|-------------|
