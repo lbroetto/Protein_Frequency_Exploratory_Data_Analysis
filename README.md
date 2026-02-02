@@ -23,18 +23,30 @@ Three sequential analyses in `Protein_frequency_Exploratory_Data_Analysis_script
 | Step | Analysis | Output File |
 |------|----------|-------------|
 | 1 | Heatmap | `heatmap.png` |
-| 2 | Clustermap | `clustermap.png` |
+| 2 | Hierarchical Clustermap | `clustermap.png` |
 | 3 | Correlation Matrix | `correlation_heatmap.png` |
 
 ## Scripts Overview
 
-**Purpose:** Exploratory data analysis of proteins frequencies 
+**Purpose:** Exploratory data analysis of proteins frequencies. The Python-based analyses (heatmaps, hierarchical clustering and correlation) are primarily descriptive and exploratory in nature. They serve to visualize patterns, relationships, and structures within the dataset rather than to test specific statistical hypotheses.
 
 **Analyses performed:**
 - Simple heatmap visualization of raw data
 - Hierarchical clustering using Dice dissimilarity metric and complete linkage
 - Pearson correlation matrix with triangular mask
 - All figures are automatically saved as PNG files. Note: Close each figure window to proceed to the next analysis.
+
+**Heatmap:**
+- This visualization represents the raw data matrix, providing an immediate overview of data intensity across samples and features. No inferential statistics are applied here; its purpose is pattern recognition.
+
+**Hierarchical Clustermap:**
+- This analysis employs a distance-based algorithm with inherent statistical measures: a) Distance Metric: use the Dice dissimilarity metric (equivalent to 1 – Dice coefficient), a statistical measure for binary or binarized data that quantifies dissimilarity between two sets. b) Linkage Method: The complete linkage method was used, which determines cluster similarity based on the maximum distance between members of each cluster. c) Standardization: The parameter standard_scale=1 scales the data per row (z-score normalization), ensuring that clustering is based on relative patterns rather than absolute magnitudes. While hierarchical clustering itself does not produce a p-value, it is a well-established multivariate statistical method for uncovering natural groupings within data, and the choice of metric and linkage method constitutes its statistical foundation.
+
+**Correlation Matrix (heatmaps of Pearson correlation coefficient):**
+- The .corr() method in Pandas computes the Pearson correlation coefficient by default, which is a parametric statistical measure of linear dependence between variables. The resulting matrix and its visualization (with a mask for the upper triangle) provide a direct quantitative assessment of pairwise relationships. While it did not perform additional tests (e.g., calculating p-values for each correlation), the correlation coefficient itself is a fundamental statistic, and its magnitude (displayed in the heatmap) is the primary descriptor of association strength in this exploratory context.
+
+**Note:**
+- This suite of analyses constituted the exploratory data analysis (EDA) phase. Its goal was to inform hypotheses and select targets for deeper experimental and computational validation.
 
 **Key statistical elements:**
 - **Dice dissimilarity:** Distance metric for binary/binarized data
