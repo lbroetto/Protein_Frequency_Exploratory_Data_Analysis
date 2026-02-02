@@ -1,4 +1,4 @@
-# Computational Analysis Scripts for Exploratory data analysis of proteins frequencies
+# Computational Script for Exploratory data analysis of proteins frequencies
 
 A Python script for comprehensive exploratory data analysis of protein frequency matrices.
 The script was written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
@@ -46,7 +46,7 @@ Three sequential analyses in `Protein_frequency_Exploratory_Data_Analysis_script
 - The .corr() method in Pandas computes the Pearson correlation coefficient by default, which is a parametric statistical measure of linear dependence between variables. The resulting matrix and its visualization (with a mask for the upper triangle) provide a direct quantitative assessment of pairwise relationships. While it did not perform additional tests (e.g., calculating p-values for each correlation), the correlation coefficient itself is a fundamental statistic, and its magnitude (displayed in the heatmap) is the primary descriptor of association strength in this exploratory context.
 
 **Note:**
-- This suite of analyses constituted the exploratory data analysis (EDA) phase. Its goal was to inform hypotheses and select targets for deeper experimental and computational validation.
+- This suite of analyses constitute the exploratory data analysis (EDA) phase. Its goal is to inform hypotheses and select targets for deeper experimental and computational validation.
 
 **Key statistical elements:**
 - **Dice dissimilarity:** Distance metric for binary/binarized data
@@ -105,10 +105,14 @@ numpy >= 1.19.0
 
 ### If you use this analysis script in your research, please cite:
 
+Broetto, L. (2026). Computational Script for Exploratory data analysis of proteins frequencies (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.???????
+
+or
+
 ```bibtex
 @software{broetto_data_analysis_of_protein_frequencies_2026,
   author       = {Leonardo Broetto},
-  title        = {{Python script for comprehensive exploratory data analysis of protein frequency matrices}},
+  title        = {{Computational Script for Exploratory data analysis of proteins frequencies}},
   month        = jan,
   year         = 2026,
   publisher    = {Zenodo},
