@@ -1,4 +1,4 @@
-# Computational Analysis Scripts for Exploratory data analysis os proteins frequencies
+# Computational Analysis Scripts for Exploratory data analysis of proteins frequencies
 
 A Python script for comprehensive exploratory data analysis of protein frequency matrices.
 The script was written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
