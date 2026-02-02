@@ -94,7 +94,7 @@ numpy >= 1.19.0
 ### If you use this analysis script in your research, please cite:
 
 ```bibtex
-@software{broetto_data analysis of protein frequencies_2026,
+@software{broetto_data_analysis_of_protein_frequencies_2026,
   author       = {Leonardo Broetto},
   title        = {{Python script for comprehensive exploratory data analysis of protein frequency matrices}},
   month        = jan,
