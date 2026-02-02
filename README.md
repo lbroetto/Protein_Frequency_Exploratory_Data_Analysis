@@ -13,7 +13,6 @@ The script was written and developed by Leonardo Broetto (leonardo.broetto@arapi
 | Directory/File | Description |
 |----------------|-------------|
 | `Protein_frequency_Exploratory_Data_Analysis_script.py` | Main analysis script |
-| `requirements.txt` | Python dependencies |
 | `LICENSE` | GNU GPLv3 license |
 | `README.md` | This documentation |
 
