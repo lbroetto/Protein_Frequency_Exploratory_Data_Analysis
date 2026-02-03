@@ -1,6 +1,6 @@
-[![DOI](https://zenodo.org/badge/1147670273.svg)](https://doi.org/10.5281/zenodo.18473345)
-
 # Computational Script for Exploratory data analysis of proteins frequencies
+
+[![DOI](https://zenodo.org/badge/1147670273.svg)](https://doi.org/10.5281/zenodo.18473345)
 
 A Python script for comprehensive exploratory data analysis of protein frequency matrices.
 The script was written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
