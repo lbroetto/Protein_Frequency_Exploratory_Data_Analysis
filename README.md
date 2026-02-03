@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1147670273.svg)](https://doi.org/10.5281/zenodo.18473345)
+
 # Computational Script for Exploratory data analysis of proteins frequencies
 
 A Python script for comprehensive exploratory data analysis of protein frequency matrices.
@@ -105,7 +107,7 @@ numpy >= 1.19.0
 
 ### If you use this analysis script in your research, please cite:
 
-Broetto, L. (2026). Computational Script for Exploratory data analysis of proteins frequencies (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXXX
+Broetto, L. (2026). Computational Script for Exploratory data analysis of proteins frequencies (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.18473346
 
 or
 
@@ -117,8 +119,8 @@ or
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v1.0.0},
-  doi          = {10.5281/zenodo.XXXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXXX}
+  doi          = {10.5281/zenodo.18473346},
+  url          = {https://doi.org/10.5281/zenodo.18473346}
 }
 ```
 
