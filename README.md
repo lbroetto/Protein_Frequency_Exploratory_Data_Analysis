@@ -131,7 +131,7 @@ or
   month        = jan,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v1.0.0},
+  version      = {v1.1.0},
   doi          = {10.5281/zenodo.18964649},
   url          = {https://doi.org/10.5281/zenodo.18964649}
 }
