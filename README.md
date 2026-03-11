@@ -11,8 +11,8 @@ This script was validated in the published manuscript:
 
 Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking
 
-Published in: Network Modeling Analysis in Health Informatics and Bioinformatics (Springer Nature), 2026
-Article DOI: 10.1007/s13721-026-00767-7
+**Published in:** *Network Modeling Analysis in Health Informatics and Bioinformatics* (Springer Nature), 2026  
+**Article DOI:** [10.1007/s13721-026-00767-7](https://doi.org/10.1007/s13721-026-00767-7)
 
 # Contact
 **Authors:** Leonardo Broetto
