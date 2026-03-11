@@ -2,7 +2,7 @@
 
 [![Article](https://img.shields.io/badge/Article-Published-green.svg)](https://doi.org/10.1007/s13721-026-00767-7)
 
-[![DOI](https://zenodo.org/badge/1147670273.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18964649.svg)](https://doi.org/10.5281/zenodo.18964649)
 
 A Python script for comprehensive exploratory data analysis of protein frequency matrices.
 The script was written and developed by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
@@ -120,7 +120,7 @@ numpy >= 1.19.0
 Broetto, L. (2026). Exploring the Molecular Basis of Potassium Usnate Activity Against Staphylococcus warneri Persistence and Resistance Through Protein Interaction Networks and Molecular Docking. *Network Modeling Analysis in Health Informatics and Bioinformatics*. https://doi.org/10.1007/s13721-026-00767-7
 
 **Software (this version):**
-Broetto, L. (2026). Computational Script for Exploratory data analysis of proteins frequencies (v1.1.0) Version associated with published article [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXXX
+Broetto, L. (2026). Computational Script for Exploratory data analysis of proteins frequencies (v1.1.0) Version associated with published article [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.18964649
 
 or
 
@@ -132,8 +132,8 @@ or
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v1.0.0},
-  doi          = {10.5281/zenodo.XXXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXXX}
+  doi          = {10.5281/zenodo.18964649},
+  url          = {https://doi.org/10.5281/zenodo.18964649}
 }
 ```
 
